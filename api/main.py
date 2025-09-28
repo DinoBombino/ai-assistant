@@ -6,7 +6,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://ai-assistant-nine-sigma.vercel.app/"],
+    allow_origins=["http://localhost:5173", "https://ai-assistant-nine-sigma.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
